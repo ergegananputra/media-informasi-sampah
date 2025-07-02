@@ -1,0 +1,41 @@
+{
+    "videos": [
+        {
+            "id": "video-1",
+            "title": "Edukasi Pemilahan Sampah Organik dan AnOrganik",
+            "description": "Edukasi Pemilahan Sampah Organik dan AnOrganik by RSA UGM",
+            "videoId": "nrANKUUHBf0",
+            "category": "Pemilahan Dasar",
+            "duration": "4:05",
+            "published": "2025-08-03"
+        },
+        {
+            "id": "video-2",
+            "title": "Pengolahan Sampah Organik Menjadi Kompos",
+            "description": "Pelajari cara mengolah sampah organik menjadi kompos yang berkualitas untuk menyuburkan tanaman di rumah.",
+            "videoId": "B4fKi53KZAE",
+            "category": "Pengolahan",
+            "duration": "8:15",
+            "published": "2025-01-05"
+        },
+        {
+            "id": "video-3",
+            "title": "Mengenal Sampah B3 dan Cara Penanganannya",
+            "description": "Panduan lengkap mengenai sampah Bahan Berbahaya dan Beracun (B3) serta cara penanganan yang aman.",
+            "videoId": "dQw4w9WgXcQ",
+            "category": "Keamanan",
+            "duration": "6:45",
+            "published": "2025-01-10"
+        },
+        {
+            "id": "video-4",
+            "title": "Kreativitas Daur Ulang Sampah Anorganik",
+            "description": "Ide-ide kreatif untuk mendaur ulang sampah anorganik menjadi barang berguna di rumah.",
+            "videoId": "dQw4w9WgXcQ",
+            "category": "Kreativitas",
+            "duration": "10:20",
+            "published": "2025-01-15"
+        }
+    ],
+    "lastUpdated": "2025-07-02T10:00:00Z"
+}
