@@ -1,7 +1,6 @@
-import { Trash2, Leaf, Cpu, Palette, Play, BookOpen } from "lucide-react"
+import { Trash2, Leaf, Cpu, Palette, BookOpen } from "lucide-react"
 import { Header } from "@/components/header"
 import { WasteCard } from "@/components/waste-card"
-import { YouTubeEmbed } from "@/components/youtube-embed"
 import { QRCodeInfo } from "@/components/qr-code-info"
 import { WasteSchedule } from "@/components/waste-schedule"
 import { WasteStats } from "@/components/waste-stats"

@@ -3,7 +3,7 @@
 import { Play, Clock, Calendar, AlertCircle, Loader2 } from "lucide-react"
 import { YouTubeEmbed } from "@/components/youtube-embed"
 import { GitHubStatus } from "@/components/github-status"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { useVideoTutorials } from "@/hooks/useVideoTutorials"
 import { VideoTutorial } from "@/types/video-tutorial"

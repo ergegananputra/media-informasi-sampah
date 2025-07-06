@@ -12,7 +12,7 @@ export function GitHubStatus({ loading, error, lastUpdated }: GitHubStatusProps)
         return (
             <Badge variant="outline" className="text-blue-600 border-blue-200">
                 <Clock className="w-3 h-3 mr-1" />
-                Memuat data...
+                Memuat data... ({lastUpdated ? `Terakhir diperbarui: ${lastUpdated}` : ""})
             </Badge>
         )
     }
