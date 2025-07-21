@@ -5,6 +5,9 @@ import { QRCodeInfo } from "@/components/qr-code-info"
 import { WasteSchedule } from "@/components/waste-schedule"
 import { WasteStats } from "@/components/waste-stats"
 import { VideoTutorialSection } from "@/components/video-tutorial-section"
+import { MarcipulInfo } from "@/components/marcipul-info"
+import { MarcipulGallery } from "@/components/marcipul-gallery"
+import { MarcipulLocation } from "@/components/marcipul-location"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
@@ -72,6 +75,21 @@ export default function Home() {
         {/* QR Code Info */}
         <section className="mb-12">
           <QRCodeInfo />
+        </section>
+
+        {/* Informasi Marcipul */}
+        <section className="mb-12">
+          <MarcipulInfo />
+        </section>
+
+        {/* Gallery Marcipul */}
+        <section className="mb-12">
+          <MarcipulGallery />
+        </section>
+
+        {/* Lokasi Marcipul */}
+        <section className="mb-12">
+          <MarcipulLocation />
         </section>
 
         {/* Jenis-jenis Sampah */}
@@ -183,7 +201,7 @@ export default function Home() {
             <CardContent className="text-center">
               <div className="space-y-2 text-blue-700">
                 <p className="font-semibold">Desa Sendari, Mlati, Sleman, Daerah Istimewa Yogyakarta</p>
-                <p className="text-sm">Untuk melaporkan masalah persampahan atau saran, silakan hubungi perangkat desa setempat atau paguyuban pengelola sampah.</p>
+                <p className="text-sm">Untuk melaporkan masalah persampahan atau bergabung dengan program SS BS Marcipul, silakan hubungi perangkat desa setempat atau kontak Marcipul di atas.</p>
               </div>
             </CardContent>
           </Card>

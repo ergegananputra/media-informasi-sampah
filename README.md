@@ -1,6 +1,18 @@
 # Media Informasi Persampahan - Sendari, Mlati, Sleman
 
-Website informasi persampahan yang dirancang khusus untuk masyarakat Sendari, Mlati, Sleman. Website ini berfungsi sebagai media edukasi pemilahan sampah yang dapat diakses melalui QR Code yang ditempatkan di tempat-tempat sampah di area tersebut.
+Website informasi persampahan yang dirancang khusus u├── components/
+│   ├── ui/                 # Komponen shadcn/ui
+│   ├── header.tsx          # Header dengan info lokasi
+│   ├── waste-card.tsx      # Kartu jenis sampah
+│   ├── waste-stats.tsx     # Statistik sampah
+│   ├── waste-schedule.tsx  # Jadwal pengambilan (kontak Marcipul)
+│   ├── qr-code-info.tsx    # Info akses via QR
+│   ├── marcipul-info.tsx   # Informasi lengkap Marcipul
+│   ├── marcipul-gallery.tsx # Gallery foto Marcipul
+│   ├── marcipul-location.tsx # Lokasi dengan Google Maps
+│   ├── video-tutorial-section.tsx # Video tutorial dinamis
+│   ├── youtube-embed.tsx   # Embed video YouTube
+│   └── github-status.tsx   # Status koneksi GitHubyarakat Sendari, Mlati, Sleman. Website ini berfungsi sebagai media edukasi pemilahan sampah yang dapat diakses melalui QR Code yang ditempatkan di tempat-tempat sampah di area tersebut.
 
 ## 🎯 Tujuan
 
@@ -40,7 +52,14 @@ Website informasi persampahan yang dirancang khusus untuk masyarakat Sendari, Ml
 - Jadwal pengambilan sampah per jenis
 - Informasi kontak perangkat desa
 
-### 5. Fakta Sampah
+### 5. Informasi Marcipul
+- **SS BS Marcipul**: Sedekah Sampah dan Bank Sampah Mari Kita Kumpul
+- Keuntungan bergabung dengan program Marcipul
+- Kontak langsung dengan WhatsApp dan telepon
+- Gallery foto kegiatan dan produk (dapat dikelola secara statis)
+- **Lokasi dengan Google Maps**: Preview peta dan navigasi langsung
+
+### 6. Fakta Sampah
 - Statistik menarik tentang sampah
 - Dampak lingkungan
 
@@ -133,3 +152,22 @@ Untuk informasi lebih lanjut atau melaporkan masalah persampahan, silakan hubung
 
 ---
 *Dibuat dengan ❤️ untuk masyarakat Sendari, Mlati, Sleman*
+
+## 📸 Mengelola Gallery Marcipul
+
+Website mendukung gallery foto statis untuk dokumentasi kegiatan dan produk Marcipul.
+
+### Menambahkan Foto:
+1. Letakkan foto di folder `/public/images/marcipul/`
+2. Gunakan format JPG/PNG dengan ukuran maksimal 2MB
+3. Edit komponen `MarcipulGallery` untuk mengaktifkan foto
+
+Lihat [Marcipul Gallery Guide](./docs/MARCIPUL_GALLERY_GUIDE.md) untuk panduan lengkap.
+
+## 📞 Kontak Marcipul
+
+**SS BS MARCIPUL** - Sedekah Sampah dan Bank Sampah Mari Kita Kumpul Melestarikan Alam
+
+- **WhatsApp**: Herwulan (+62 877 3550 1701) | Yuni Lestari (+62 812 2703 4424)  
+- **Chat Langsung**: Tombol WhatsApp tersedia di website
+- **Kegiatan**: Pemilahan sampah, kerajinan anorganik, pembuatan kompos
