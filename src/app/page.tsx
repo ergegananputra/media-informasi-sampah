@@ -7,6 +7,7 @@ import { WasteStats } from "@/components/waste-stats"
 import { VideoTutorialSection } from "@/components/video-tutorial-section"
 import { MarcipulInfo } from "@/components/marcipul-info"
 import { MarcipulGallery } from "@/components/marcipul-gallery"
+import { MarcipulSimpleGallery } from "@/components/marcipul-simple-gallery"
 import { MarcipulLocation } from "@/components/marcipul-location"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -85,6 +86,11 @@ export default function Home() {
         {/* Gallery Marcipul */}
         <section className="mb-12">
           <MarcipulGallery />
+        </section>
+
+        {/* Galeri Foto Sederhana */}
+        <section className="mb-12">
+          <MarcipulSimpleGallery />
         </section>
 
         {/* Lokasi Marcipul */}

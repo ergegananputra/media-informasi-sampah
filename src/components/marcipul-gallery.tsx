@@ -1,11 +1,13 @@
 import { Camera, Package, Users, Recycle } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import Image from "next/image"
 
 export function MarcipulGallery() {
     const galleryItems = [
         {
             id: 1,
+            filename: "memilah_sampah.JPG",
             title: "Kegiatan Pemilahan Sampah",
             description: "Warga sedang memilah sampah bersama tim Marcipul",
             category: "Kegiatan",
@@ -13,6 +15,7 @@ export function MarcipulGallery() {
         },
         {
             id: 2,
+            filename: "produk_sampah_anorganik.JPG",
             title: "Produk Kerajinan Sampah Anorganik",
             description: "Hasil kerajinan dari sampah plastik dan botol bekas",
             category: "Produk",
@@ -20,6 +23,7 @@ export function MarcipulGallery() {
         },
         {
             id: 3,
+            filename: "bank_sampah.JPG",
             title: "Bank Sampah",
             description: "Fasilitas bank sampah untuk menampung dan menimbang sampah",
             category: "Fasilitas",
@@ -27,6 +31,7 @@ export function MarcipulGallery() {
         },
         {
             id: 4,
+            filename: "kompos_organik.JPG",
             title: "Kompos Organik",
             description: "Proses pembuatan kompos dari sampah organik",
             category: "Produk",
@@ -34,6 +39,7 @@ export function MarcipulGallery() {
         },
         {
             id: 5,
+            filename: "sosialisasi.jpeg",
             title: "Sosialisasi Masyarakat",
             description: "Kegiatan sosialisasi program Marcipul kepada warga",
             category: "Kegiatan",
@@ -41,6 +47,7 @@ export function MarcipulGallery() {
         },
         {
             id: 6,
+            filename: "bank_sampah.JPG",
             title: "Tabungan Sampah",
             description: "Sistem tabungan dari hasil penyetoran sampah",
             category: "Layanan",
@@ -91,14 +98,13 @@ export function MarcipulGallery() {
                                     <p className="text-xs text-gray-400 mt-1">{item.placeholder}</p>
                                 </div>
 
-                                {/* Future: Uncomment jika gambar sudah tersedia
-                <Image
-                  src={`/images/marcipul/${item.id}.jpg`}
-                  alt={item.placeholder}
-                  fill
-                  className="object-cover"
-                />
-                */}
+                                <Image
+                                    src={`/images/spotlight/${item.filename}`}
+                                    alt={item.placeholder}
+                                    fill
+                                    className="object-cover"
+                                />
+
                             </div>
 
                             <div className="p-4">
@@ -114,21 +120,6 @@ export function MarcipulGallery() {
                             </div>
                         </div>
                     ))}
-                </div>
-
-                {/* Info untuk menambahkan foto */}
-                <div className="mt-8 bg-white rounded-lg p-6 border border-indigo-200">
-                    <div className="text-center text-indigo-700">
-                        <Camera className="w-8 h-8 mx-auto mb-2" />
-                        <p className="font-medium">Gallery Foto Marcipul</p>
-                        <p className="text-sm mt-2">
-                            Untuk menambahkan foto, letakkan gambar di folder
-                            <code className="bg-indigo-100 px-2 py-1 rounded text-xs ml-1">/public/images/marcipul/</code>
-                        </p>
-                        <p className="text-xs text-indigo-600 mt-2">
-                            Format yang disarankan: JPG/PNG, ukuran maksimal 2MB
-                        </p>
-                    </div>
                 </div>
             </CardContent>
         </Card>
