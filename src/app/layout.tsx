@@ -19,6 +19,32 @@ export const metadata: Metadata = {
   authors: [{ name: "KKN Universitas" }],
   viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: [
+      { url: '/favicon.ico', sizes: '180x180', type: 'image/x-icon' },
+    ],
+  },
+  manifest: '/manifest.json',
+  themeColor: '#10b981',
+  colorScheme: 'light',
+  openGraph: {
+    title: "Media Informasi Persampahan - Sendari, Mlati, Sleman",
+    description: "Panduan lengkap pemilahan sampah untuk masyarakat Sendari, Mlati, Sleman",
+    url: 'https://media-informasi-sampah.vercel.app',
+    siteName: 'Media Informasi Persampahan',
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Media Informasi Persampahan - Sendari, Mlati, Sleman",
+    description: "Panduan lengkap pemilahan sampah untuk masyarakat Sendari, Mlati, Sleman",
+  },
 };
 
 export default function RootLayout({

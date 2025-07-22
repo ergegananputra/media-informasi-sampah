@@ -1,0 +1,35 @@
+{
+    "name": "Media Informasi Persampahan Sendari",
+    "short_name": "InfoSampah Sendari",
+    "description": "Panduan lengkap pemilahan sampah untuk masyarakat Sendari, Mlati, Sleman",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#10b981",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "32x32",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/favicon.ico",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/favicon.ico",
+            "sizes": "48x48",
+            "type": "image/x-icon"
+        }
+    ],
+    "categories": [
+        "education",
+        "utilities",
+        "lifestyle"
+    ],
+    "lang": "id",
+    "scope": "/",
+    "id": "media-informasi-persampahan"
+}
