@@ -7,8 +7,17 @@
             "videoId": "nrANKUUHBf0",
             "category": "Pemilahan Dasar",
             "duration": "4:05",
-            "published": "2025-08-03"
+            "published": "2024-08-03"
+        },
+        {
+            "id": "video-2",
+            "title": "Tempat Sampah Terpilah Bergambar #TidakNyampahBisa",
+            "description": "Video ini mengajak warga untuk membuang sampah sesuai dengan tempatnya. Lingkungan sehat, hidup sehat!",
+            "videoId": "mT7SamYCpQ8",
+            "category": "Tempat Sampah Terpilah",
+            "duration": "1:30",
+            "published": "2025-07-23"
         }
     ],
-    "lastUpdated": "2025-07-06T10:00:00Z"
+    "lastUpdated": "2025-07-23T12:00:00Z"
 }
